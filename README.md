@@ -60,16 +60,14 @@ This task processes log files, parses them into structured data, and provides fu
 ### Usage:
 
 ```bash
-# Command line usage
-
 python task_3.py <log_file> [<log_level>]
 ```
 
 ### Example
 
-log.txt example
+example.log
 
-```txt
+```log
 2024-01-22 08:30:01 INFO User logged in successfully.
 2024-01-22 08:45:23 DEBUG Attempting to connect to the database.
 2024-01-22 09:00:45 ERROR Database connection failed.
@@ -97,7 +95,7 @@ Filtered logs by level: ERROR
 2024-01-22 11:30:15 - Backup process failed.
 ```
 
-- Ensure to replace `example.log` with the actual path to your log file.
+_Ensure to replace `example.log` with the actual path to your log file._
 
 ## Task 4: Console Bot with Error Handling
 
@@ -129,8 +127,6 @@ python task_4.py
 ### Example
 
 ```bash
-# Example interaction
-
 Enter a command: add
 Invalid input. Please provide name and phone number.
 Enter a command: add Bob
